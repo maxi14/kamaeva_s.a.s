@@ -44,7 +44,7 @@ html {
 
 body {
     background: var(--white-color);
-    font-family: var(--body-font-family);    
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;     
     position: relative;
 }
 
