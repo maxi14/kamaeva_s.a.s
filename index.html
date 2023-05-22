@@ -117,7 +117,15 @@ https://templatemo.com/tm-567-nomad-force
 	<body>
     
         <main>
-
+              <div class="cookie-overlay p-4 d-none">
+  <div class="d-flex">
+    <div class="mr-3">
+      By clicking the "Accept" button below, you agree to our 'Cookie Policy'.
+    </div>
+    <img src="/close.png" class="close-cookies" />
+  </div>
+  <button class="btn btn-primary mt-3 accept-cookies">Accept</button>
+</div>
             <section class="hero" id="hero">
                 <nav class="navbar navbar-expand-lg bg-light shadow-lg">
                 <div class="container">
@@ -553,16 +561,7 @@ https://templatemo.com/tm-567-nomad-force
 
                 </div>
             </section>
-              <div class="cookie-overlay p-4 d-none">
-  <div class="d-flex">
-    <div class="mr-3">
-      By clicking the "Accept" button below, you agree to our <%= link_to
-      'Cookie Policy', cookies_url, target: '_blank' %>.
-    </div>
-    <img src="/close.png" class="close-cookies" />
-  </div>
-  <button class="btn btn-primary mt-3 accept-cookies">Accept</button>
-</div>
+
         </footer>
 
         <!-- JAVASCRIPT FILES -->
